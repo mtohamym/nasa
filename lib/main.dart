@@ -5,5 +5,5 @@ import 'network/dio_helper.dart';
 
 void main() {
   DioHelper.init();
-  runApp(Home());
+  runApp(MaterialApp(home: Home()));
 }
